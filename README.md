@@ -1,8 +1,13 @@
-Integration test between nodeJS and PHP
+Integration test between nodeJS and PHP started by jdutheil
 
-This is just a simple chat application, where all database and pages are managed by PHP.
-NodeJS is used for realtime refresh
+The orginal project has been adapted so that the DB updates are perfomed by NodeJS to enable update notifications to be broadcast to connected clients.
 
-It is basically just a test project, but the logic of the application can be used for a lot of purposes (realtime notifications, ...) and easily deployed in another project.
+Ultimately the client could be informed of the type of update and perform actions as a result (e.g. make an ajax request to update the page contents if the page being viewed has been affected by the notified change).
 
-I will try to update and improve it as soon as possible.
+It is still basically just a test project, but the logic of the application can be used for a lot of purposes (realtime notifications, ...) and easily deployed in another project.
+
+Still to do:
+
+Error handling
+Clusters
+Tidying up
